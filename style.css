@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    font-family:    Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 90px;
+    background-color:  #128c7e;
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 1;
+}
+nav .short_nav{
+    display: none;
+}
+.nav_options{
+    list-style-type: none;
+}
+.nav_options{
+    flex-basis: 47%;
+    display: inline-flex;
+    font-size: 14px;
+    justify-content: space-between;
+}
+.whatsapp_logo{
+    text-align: center;
+}
+.whatsapp_logo span{
+    font-size: 20px;
+    vertical-align: 50%;
+}
+nav a{
+    color: white
+}
+.content_body{
+    position: relative;
+    top: 83px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0% 3%;
+}
+.upper_content{
+    display: flex;
+    flex-direction: row;
+    font-family:  arial,sans-serif;
+    color: rgb(80, 78, 78);
+    line-height: 27px;
+    align-self: center;
+    justify-content: space-evenly;
+    padding-left: 8%;
+    flex-wrap: wrap;
+}
+
+.simple_intro,.mobile_image{
+    flex-basis: 37%;
+}
+.upper_content .simple_intro{
+    align-self: center;
+}
+.upper_content h2{
+    font-weight: lighter;
+    font-size: 30px;
+}
+.upper_content p{
+    font-size: 16px;
+    color: rgb(143, 142, 142);
+}
+.simple_intro #highlight_detail{
+    color: rgb(194, 184, 184);
+    font-size: 12px;
+}
+.details_list{
+    list-style-type: none;
+    line-height: 35px;
+}
+.details_list a{
+    color: rgb(21, 204, 164);
+    font-size: 16px;
+}
+.lower_content{
+    margin: 3% 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    line-height: 22px;
+    color: rgb(131, 125, 125);
+}
+
+.lower_content a{
+    color: rgb(53, 139, 238);
+}
+.lower_content .lower_first{
+    text-align: center;
+    background-color: rgb(208,233,234);
+    flex-basis: 49%;
+    min-width: 339px;
+    padding: 5% 5% 0 5%;
+}
+.lower_first h2,.lower_second h2{
+    font-weight: lighter
+}
+.lower_first p{
+    font-size: 14px;
+}
+.lower_first img{
+    margin-bottom: -1%;
+}
+
+.lower_second{
+    flex-basis: 49%;
+    background-color: rgb(237,248,245);
+    text-align: center;   
+    min-width: 350px;
+}
+.lower_second p{
+    font-size: 14px;
+}
+.lower_second p:nth-child(2){
+    font-weight: bolder;
+    font-size: 11px;
+}
+.lower_second p:nth-child(4){
+    margin: 0% 10%;
+}
+.lower_second .animated_box{
+    overflow: hidden;
+    border-radius: 100%;
+    background-color: rgb(108, 240, 211);
+    width: 230px;
+    height: 230px;
+    margin:10% auto 0 auto;
+}
+.explore_button{
+    margin: 10px;
+    align-self: center;
+    margin: 6% 0;
+}
+
+.explore_button a{
+    display: inline-block;
+    color: rgb(21, 204, 164);
+    background-color: white;
+    border: 2px solid rgb(21, 204, 164);
+    border-radius: 25px;
+    padding: 22px;
+    font-weight: bolder;
+}
+footer{
+    background-color: rgb(39,52,67);
+    position: relative;
+    top: 80px;
+    width: 101%;
+    left: -8px;
+}
+footer ul{
+    list-style: none;
+}
+.bottom_options{
+    display: flex;
+    width: 80%;
+    line-height: 25px;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.bottom_options h4{
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, .6);
+    font-size: 15px;
+}
+footer a{
+    color: white;
+    font-size: 14px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.bottom_line{
+    background-color: rgb(36, 46, 58);
+    width: 100%;
+}
+.bottom_line p{
+    display: inline-block;
+    color: rgba(255, 255, 255, .6);
+}
+.bottom_line p:nth-of-type(odd){
+    margin-left: 22%;
+}
+.bottom_line p:nth-of-type(even){
+    margin-left: 8.2%;
+}
+
